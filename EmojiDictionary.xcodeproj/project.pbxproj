@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B4BB43FB22FD9F3C004AE1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB43FA22FD9F3C004AE1E4 /* AppDelegate.swift */; };
-		B4BB43FD22FD9F3C004AE1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB43FC22FD9F3C004AE1E4 /* ViewController.swift */; };
 		B4BB440022FD9F3C004AE1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BB43FE22FD9F3C004AE1E4 /* Main.storyboard */; };
 		B4BB440222FD9F3D004AE1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BB440122FD9F3D004AE1E4 /* Assets.xcassets */; };
 		B4BB440522FD9F3D004AE1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BB440322FD9F3D004AE1E4 /* LaunchScreen.storyboard */; };
+		B4BB440D22FDA90E004AE1E4 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB440C22FDA90E004AE1E4 /* EmojiTableViewController.swift */; };
+		B4BB441122FDCCA5004AE1E4 /* DisplayEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB441022FDCCA5004AE1E4 /* DisplayEmojiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4BB43F722FD9F3C004AE1E4 /* EmojiDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4BB43FA22FD9F3C004AE1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4BB43FC22FD9F3C004AE1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4BB43FF22FD9F3C004AE1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4BB440122FD9F3D004AE1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4BB440422FD9F3D004AE1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4BB440622FD9F3D004AE1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BB440C22FDA90E004AE1E4 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		B4BB441022FDCCA5004AE1E4 /* DisplayEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayEmojiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				B4BB43FA22FD9F3C004AE1E4 /* AppDelegate.swift */,
-				B4BB43FC22FD9F3C004AE1E4 /* ViewController.swift */,
+				B4BB440C22FDA90E004AE1E4 /* EmojiTableViewController.swift */,
+				B4BB441022FDCCA5004AE1E4 /* DisplayEmojiViewController.swift */,
 				B4BB43FE22FD9F3C004AE1E4 /* Main.storyboard */,
 				B4BB440122FD9F3D004AE1E4 /* Assets.xcassets */,
 				B4BB440322FD9F3D004AE1E4 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4BB43FD22FD9F3C004AE1E4 /* ViewController.swift in Sources */,
+				B4BB441122FDCCA5004AE1E4 /* DisplayEmojiViewController.swift in Sources */,
+				B4BB440D22FDA90E004AE1E4 /* EmojiTableViewController.swift in Sources */,
 				B4BB43FB22FD9F3C004AE1E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLKL73RGVN;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RLKL73RGVN;
 				INFOPLIST_FILE = EmojiDictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
