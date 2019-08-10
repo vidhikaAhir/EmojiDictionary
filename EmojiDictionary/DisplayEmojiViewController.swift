@@ -57,8 +57,6 @@ class DisplayEmojiViewController: UIViewController {
             textAtBottom.text = "Pretzel emoji"
         }else if emojiDisplay == "🌔" {
             textAtBottom.text = "Eclipse moon emoji"
-        }else if emojiDisplay == "🚵🏻‍♂️" {
-            textAtBottom.text = "Biker emoji"
         }
         
     }
